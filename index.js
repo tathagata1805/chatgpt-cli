@@ -1,8 +1,10 @@
 import { Configuration, OpenAIApi } from "openai";
 import readline from "readline";
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: process.env.OPENAI_API,
 });
 const openai = new OpenAIApi(configuration);
 
