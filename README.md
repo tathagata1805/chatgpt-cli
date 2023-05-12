@@ -13,5 +13,5 @@ This is a CLI based Chatbot created with Node JS, OpenAI and ChatGPT
 * Install the dependencies ``npm install``
 * Replace the configuration data with your own data in the `index.js` file
 * Run the `index.js` file `node index` or using nodemon package `npm run dev` (script written in package.json file)
-
+<br/><br/>
 * This will run the Chatbot in your terminal. Enjoy!
