@@ -1,0 +1,16 @@
+{
+  "name": "chatgpt-nodejs",
+  "version": "1.0.0",
+  "description": "chatgpt-cli",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Tathagata Chakraborty",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  }
+}
